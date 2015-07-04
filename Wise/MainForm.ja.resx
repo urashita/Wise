@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)</value>
+  </data>
+  <data name="Status.HeaderText" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="itemDeleteDToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目削除(&amp;D)...</value>
+  </data>
+  <data name="addNewItemToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目新規追加(&amp;A)...</value>
+  </data>
+  <data name="bingChange.HeaderText" xml:space="preserve">
+    <value>Bing変化</value>
+  </data>
+  <data name="bingPosition.HeaderText" xml:space="preserve">
+    <value>Bing順位</value>
+  </data>
+  <data name="bingVolumn.HeaderText" xml:space="preserve">
+    <value>Bing件数</value>
+  </data>
+  <data name="browseToolStripMenuItem.Text" xml:space="preserve">
+    <value>ブラウズ(&amp;B)</value>
+  </data>
+  <data name="deleteItem2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目削除(&amp;D)...</value>
+  </data>
+  <data name="deleteItemToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目削除(&amp;D)...</value>
+  </data>
+  <data name="EditEToolStripMenuItem.Text" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="editItem2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目編集(&amp;E)...</value>
+  </data>
+  <data name="editItemToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目編集(&amp;E)...</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="googleChange.HeaderText" xml:space="preserve">
+    <value>Google変化</value>
+  </data>
+  <data name="googlePosition.HeaderText" xml:space="preserve">
+    <value>Google順位</value>
+  </data>
+  <data name="googleVolumn.HeaderText" xml:space="preserve">
+    <value>Google件数</value>
+  </data>
+  <data name="itemDeleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目削除(&amp;D)</value>
+  </data>
+  <data name="itemEditEToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目編集(&amp;E)...</value>
+  </data>
+  <data name="itemEditToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目編集(&amp;E)...</value>
+  </data>
+  <data name="itemNewAddAToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目新規追加(&amp;A)...</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="optionToolStripMenuItem.Text" xml:space="preserve">
+    <value>オプション(&amp;O)</value>
+  </data>
+  <data name="runToolStripMenuItem.Text" xml:space="preserve">
+    <value>実行(&amp;R)</value>
+  </data>
+  <data name="runWiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>順位チェック実行(&amp;R)</value>
+  </data>
+  <data name="searchWord1.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="siteName1.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteURL1.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>トップ</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Google履歴</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Yahoo履歴</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Bing履歴</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Google詳細</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Yahoo詳細</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Bing詳細</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="yahooChange.HeaderText" xml:space="preserve">
+    <value>Yahoo変化</value>
+  </data>
+  <data name="yahooPosition.HeaderText" xml:space="preserve">
+    <value>Yahoo順位</value>
+  </data>
+  <data name="yahooVolumn.HeaderText" xml:space="preserve">
+    <value>Yahoo件数</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>WISE Is not Search Engine (WISE is Search Engine Position Checker)</value>
+  </data>
+  <data name="searchWord2.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="siteName2.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteURL2.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="searchWord3.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="searchWord4.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="siteName3.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteName4.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteURL3.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="siteURL4.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="cancelWiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>順位チェックキャンセル(&amp;S)</value>
+  </data>
+  <data name="exportCSVToolStripMenuItem.Text" xml:space="preserve">
+    <value>CSVへエクスポート(&amp;H)...</value>
+  </data>
+  <data name="bingSearchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bing検索(&amp;M)</value>
+  </data>
+  <data name="googleSearchGToolStripMenuItem.Text" xml:space="preserve">
+    <value>Google検索(&amp;G)</value>
+  </data>
+  <data name="openOToolStripMenuItem.Text" xml:space="preserve">
+    <value>開く(&amp;O)</value>
+  </data>
+  <data name="yahooSearchYToolStripMenuItem.Text" xml:space="preserve">
+    <value>Yahoo検索(&amp;Y)</value>
+  </data>
+  <data name="googlePosition5.HeaderText" xml:space="preserve">
+    <value>Google順位</value>
+  </data>
+  <data name="googleTitle.HeaderText" xml:space="preserve">
+    <value>Googleタイトル</value>
+  </data>
+  <data name="googleURL.HeaderText" xml:space="preserve">
+    <value>Google URL</value>
+  </data>
+  <data name="searchWord5.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="siteName5.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteURL5.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="bingPosition7.HeaderText" xml:space="preserve">
+    <value>Bing順位</value>
+  </data>
+  <data name="bingTitle.HeaderText" xml:space="preserve">
+    <value>Bingタイトル</value>
+  </data>
+  <data name="bingURL.HeaderText" xml:space="preserve">
+    <value>Bing URL</value>
+  </data>
+  <data name="searchWord6.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="searchWord7.HeaderText" xml:space="preserve">
+    <value>検索語</value>
+  </data>
+  <data name="siteName6.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteName7.HeaderText" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="siteURL6.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="siteURL7.HeaderText" xml:space="preserve">
+    <value>サイトURL</value>
+  </data>
+  <data name="yahooPosition6.HeaderText" xml:space="preserve">
+    <value>Yahoo順位</value>
+  </data>
+  <data name="yahooTitle.HeaderText" xml:space="preserve">
+    <value>Yahooタイトル</value>
+  </data>
+  <data name="yahooURL.HeaderText" xml:space="preserve">
+    <value>Yahoo URL</value>
+  </data>
+  <data name="optionOToolStripMenuItem.Text" xml:space="preserve">
+    <value>オプション(&amp;O)...</value>
+  </data>
+  <data name="oneDownNToolStripMenuItem.Text" xml:space="preserve">
+    <value>1つ下へ(&amp;N)</value>
+  </data>
+  <data name="oneDownNToolStripMenuItem1.Text" xml:space="preserve">
+    <value>1つ下へ(&amp;N)</value>
+  </data>
+  <data name="oneUpUToolStripMenuItem.Text" xml:space="preserve">
+    <value>1つ上へ(&amp;U)</value>
+  </data>
+  <data name="oneUpUToolStripMenuItem1.Text" xml:space="preserve">
+    <value>1つ上へ(&amp;U)</value>
+  </data>
+</root>

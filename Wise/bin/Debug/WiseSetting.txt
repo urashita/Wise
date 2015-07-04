@@ -1,0 +1,4 @@
+#
+# WISE DB Path (One DB only)
+#
+WISE_DB_PATH = Wise.db

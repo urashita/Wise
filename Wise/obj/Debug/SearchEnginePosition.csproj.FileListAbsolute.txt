@@ -1,0 +1,15 @@
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\bin\Debug\SearchEnginePosition.exe
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\bin\Debug\SearchEnginePosition.pdb
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.csprojResolveAssemblyReference.cache
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.Properties.Resources.resources
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.csproj.GenerateResource.Cache
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.exe
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.pdb
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Urashita\documents\visual studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.MainForm.resources
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.EditItemForm.resources
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\SearchEnginePosition\SearchEnginePosition\obj\Debug\SearchEnginePosition.AddItemForm.resources
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\Wise\SearchEnginePosition\obj\Debug\SearchEnginePosition.exe
+C:\Users\Urashita\Documents\Visual Studio 2012\Projects\Wise\SearchEnginePosition\obj\Debug\SearchEnginePosition.pdb
