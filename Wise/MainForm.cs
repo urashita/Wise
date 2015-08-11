@@ -533,12 +533,12 @@ namespace Wise
 
             //Get loop count
             int maxLoops = (int)e.Argument;
-
+            int i = 0;
             try
             {
                 //int googleCount = -1, yahooCount = -1;
                 //getOptions(ref googleCount, ref yahooCount);
-                for (int i = 0; i < maxLoops; i++)
+                for (i = 0; i < maxLoops; i++)
                 {
                     //Is cancelled
                     if (bgWorker.CancellationPending)
@@ -647,10 +647,11 @@ namespace Wise
             }
             catch (Exception e1)
             {
-                MessageBox.Show(e1.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e1.Message + Environment.NewLine + "Cannot search Google more than 50 at once." + Environment.NewLine + "Try one hour later.", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            e.Result = maxLoops;
+            //e.Result = maxLoops;
+            e.Result = i;
         }
 
 
@@ -944,7 +945,7 @@ namespace Wise
             else
             {
                 int result = (int)e.Result;
-                toolStripStatusLabel1.Text = dataGridView1.Rows.Count + " items. " + "All items checked.";
+                toolStripStatusLabel1.Text = dataGridView1.Rows.Count + " items. " + result  + " items checked.";
             }
 
             fileToolStripMenuItem.Enabled = true;

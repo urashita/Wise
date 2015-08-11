@@ -30,8 +30,9 @@ namespace Search
             sb.Append(HttpUtility.UrlEncode(kensakuword).ToString());
 
             WebClient webClient = new WebClient();
-            //webClient.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11 AlexaToolbar/alxg-3.1");
-            //webClient.Encoding = System.Text.Encoding.UTF8;
+            webClient.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
+            webClient.Encoding = System.Text.Encoding.UTF8;
+
             return webClient.DownloadString(sb.ToString());
         }
 
@@ -106,9 +107,9 @@ namespace Search
 
         internal static string GetYahooSearchResultHtlm(string kensakuword)
         {
-            StringBuilder sb = new StringBuilder("http://search.yahoo.co.jp/search?&n=100&p=");
+            StringBuilder sb = new StringBuilder("http://search.yahoo.co.jp/search?&p=");
 
-            //sb = new StringBuilder("http://search.yahoo.co.jp/search?p=geek%A4%CA%A4%DA%A1%BC%A4%B8&fr=top&src=top");
+            //StringBuilder sb = new StringBuilder("http://search.yahoo.co.jp/search?&n=100&p=");
             sb.Append(HttpUtility.UrlEncode(kensakuword).ToString());
 
             WebClient webClient = new WebClient();
