@@ -220,7 +220,7 @@
     <value>Google履歴</value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
-    <value>Yahoo履歴</value>
+    <value>Yahoo履歴(停止中)</value>
   </data>
   <data name="tabPage4.Text" xml:space="preserve">
     <value>Bing履歴</value>
@@ -229,7 +229,7 @@
     <value>Google詳細</value>
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
-    <value>Yahoo詳細</value>
+    <value>Yahoo詳細(停止中)</value>
   </data>
   <data name="tabPage7.Text" xml:space="preserve">
     <value>Bing詳細</value>
@@ -238,13 +238,13 @@
     <value>toolStripStatusLabel1</value>
   </data>
   <data name="yahooChange.HeaderText" xml:space="preserve">
-    <value>Yahoo変化</value>
+    <value>Yahoo停止</value>
   </data>
   <data name="yahooPosition.HeaderText" xml:space="preserve">
-    <value>Yahoo順位</value>
+    <value>Yahoo停止</value>
   </data>
   <data name="yahooVolumn.HeaderText" xml:space="preserve">
-    <value>Yahoo件数</value>
+    <value>Yahoo停止</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>WISE Is not Search Engine (WISE is Search Engine Position Checker)</value>

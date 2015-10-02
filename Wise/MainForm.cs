@@ -587,6 +587,9 @@ namespace Wise
                     setSellOnTopTab(i, 3, keywordPosition, googleChangeText, searchVolumn, googleChangeStatus);
 
                     // Search Yahoo
+                    //
+                    // Not supported now
+                    /*
                     res = Search.Helper.GetYahooSearchResultHtlm(kensakuword);
                     keywordPosition = "-";
                     searchVolumn = null;
@@ -598,6 +601,13 @@ namespace Wise
                     String yahooChangeText = createChangeString(keywordPosition, dataGridView1.Rows[i].Cells[6].Value, ref yahooChangeStatus);
                     String yahooVolumn = searchVolumn;
                     setSellOnTopTab(i, 6, keywordPosition, yahooChangeText, searchVolumn, yahooChangeStatus);
+                    */
+                    String yahooURL = null;
+                    String yahooTitle = null;
+                    String yahooPosition = null;
+                    String yahooVolumn = null;
+                    String yahooChangeText = null;
+                    ChangeStatus yahooChangeStatus = ChangeStatus.RANK_STABLE;
 
                     // Search Bing
                     res = Search.Helper.GetBingSearchResultHtlm(kensakuword);
