@@ -49,6 +49,8 @@ namespace Search
             var matches = Regex.Matches(text, @"([0-9,]+)");
             searchVolumn = matches[0].Groups[1].Value;
 
+            // get search result URLs
+            
             /*
             var nodes = (from node in doc.DocumentNode.SelectNodes("//a")
                          let href = node.Attributes["href"]
@@ -56,11 +58,12 @@ namespace Search
                          where href.Value.Contains("/url?") || href.Value.Contains("?url=")
                          select href.Value).ToList();
             */
+            
+            //var xpath = "//li[contains(concat(' ',@class,' '),' g ')]" + "/h3[contains(concat(' ',@class,' '),' r ')]" + "/a/@href";
+            // 2016/1/12 Changed from "li" to "div" ... maybe Google algorithm changed
+            var xpath = "//div[contains(concat(' ',@class,' '),' g ')]" + "/h3[contains(concat(' ',@class,' '),' r ')]" + "/a/@href";
 
-            // get search result URLs
-            var xpath = "//li[contains(concat(' ',@class,' '),' g ')]" + "/h3[contains(concat(' ',@class,' '),' r ')]" + "/a/@href";
             var nodes = doc.DocumentNode.SelectNodes(xpath);
-
 
             int num = 1;
             Boolean isFirst = true;

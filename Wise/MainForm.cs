@@ -657,7 +657,10 @@ namespace Wise
             }
             catch (Exception e1)
             {
-                MessageBox.Show(e1.Message + Environment.NewLine + "Cannot search Google more than 50 at once." + Environment.NewLine + "Try one hour later.", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Form dummy = new Form();
+                dummy.TopMost = true;
+
+                MessageBox.Show(dummy, e1.Message + Environment.NewLine + "Cannot search Google more than 50 at once." + Environment.NewLine + "Try one hour later.", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             //e.Result = maxLoops;
