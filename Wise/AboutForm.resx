@@ -150,14 +150,13 @@
     <value>12, 20</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 96</value>
+    <value>434, 84</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>WISE version 0.03
-
+    <value>WISE version 0.04
 Copyright (C) Shoji Urashita
 
 WISE(Wise Is not Search Engine) is Search Engine Position Checker.
