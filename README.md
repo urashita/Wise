@@ -1,7 +1,7 @@
 # Wise
 WISE Is not Search Engine ( WISE is Search Engine Position Checker )
 
-WISE version 0.01
+WISE version 0.04
 Copyright (C) Shoji Urashita
 
 WISE(Wise Is not Search Engine) is Search Engine Position Checker.
